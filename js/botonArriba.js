@@ -1,0 +1,5 @@
+$(function(){
+    $.scrollUp({
+        scrollImg: true
+    });
+  });

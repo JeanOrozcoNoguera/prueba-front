@@ -1,0 +1,223 @@
+.iconosRedes {
+    width: 30px;
+    height: 30px;
+}
+
+.horario {
+
+    width: 50px;
+    height: 50px;
+
+}
+.logo {
+    width: 25%;
+}
+.imagenPC {
+    width: 100%;
+   
+}
+#imagenPC {
+    margin-top: 30px;
+}
+
+.titulo {
+    color: white;
+    margin-left: 80px;
+    margin-top: 30px;
+    
+}
+
+.tituloResponsive {
+    display: none;
+}
+
+.tituloFormulario {
+    font-size: 25px;
+}
+
+
+#textoTitulo {
+    font-size: 20px;
+    color: azure;
+    padding-left: 80px;
+}
+
+.contenedorImagenesHorario {
+    text-align: center;
+    padding-top: 6px; 
+    width: 120px;
+    height: 90px;
+    border: 1px solid darkgray;
+    transition: .2s;
+}
+
+.contenedorImagenesHorario:hover{
+    background: rgba(0,0,0,0.05);
+    cursor: pointer;
+}
+
+.circuloBtn {
+    color: white;
+    border-radius: 1.5rem;
+    background: rgb(0,222,156);
+}
+
+.footer {
+    background-color: #1A237E;
+}
+
+hr {
+    
+    background-color: white;
+  }
+  
+  /* #1A237E */
+
+
+.nav-link:hover {
+
+  border-bottom: 3px solid red;
+  
+  
+  
+}
+.menu {
+    
+    margin-left: 200px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    
+
+}
+.navbar {
+
+    
+}
+
+.header {
+    
+    background-image: url('../Guia/header_productos_siiafe_bg_50.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 60vh;
+    height: auto;
+    width: 100%;
+    
+
+
+}
+
+.lineaVerde {
+    
+    height: 710px;
+    padding-top: 70px;
+}
+.lineaVerdeH{
+    display: none;
+    width: 100%;
+    height: 4px;
+}
+
+
+.imagenes {
+ 
+}
+
+.circulo{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    -webkit-box-shadow: 4px 3px 5px 0px rgba(8,0,250,0.27);
+    padding: 15px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.imagenesContacto {
+   margin-top: 80px;
+}
+
+.contenedorImagenesHorario.activoHorario {
+    background: rgba(0,0,0,0.3);
+    color: white;
+    width: 110px;
+    height: 80px;
+
+}
+
+/* scrollUP */
+
+#scrollUp {
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background: url('../imagenes/botonArriba.svg');
+    background-size: cover;
+    border-radius: 50%;
+    -webkit-box-shadow: 17px 4px 31px -10px rgba(17,17,18,0.44);
+
+    
+  }
+
+
+
+/* media query */
+
+@media screen and (max-width:991px) {
+    .lineaVerde{
+        display: none;
+    }
+    .lineaVerdeH {
+        display: block;
+    }
+
+    .imagenesContacto {
+        display: none;
+    }
+
+    .tituloResponsive {
+        display: block;
+        font-size: 30px;
+    }
+    .titulo {
+        display: none;
+    }
+
+    .nav-link:hover {
+       margin-left: 25px;
+       width:  155px;
+    }
+
+    .tituloFormulario {
+        font-size: 19px;
+    }
+    .imagenPC {
+        width: 90%;
+    }
+    .logo {
+        width: 50%;
+    }
+    #textoTitulo {
+        display: none;
+    }
+    .contenedorImagenesHorario {
+        text-align: center;
+        padding-top: 6px; 
+        width: 100px;
+        height: 70px;
+        border: 1px solid darkgray;
+        transition: .2s;
+    }
+    .horario {
+
+        width: 25px;
+        height: 25px;
+    
+    }
+    .menu {
+        margin-left: 20px;
+    }
+
+    
+} 
+
+/* fin Media query */
